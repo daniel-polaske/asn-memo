@@ -467,6 +467,10 @@ class ASNMemoApp(App):
     BINDINGS = [
         Binding("q", "quit", "Quit", show=True),
         Binding("?", "help", "Help"),
+        Binding("up", "focus_previous", "Focus previous", show=False),
+        Binding("down", "focus_next", "Focus next", show=False),
+        Binding("left", "focus_previous", "Focus previous", show=False),
+        Binding("right", "focus_next", "Focus next", show=False),
     ]
 
     def __init__(self) -> None:
