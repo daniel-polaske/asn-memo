@@ -1,6 +1,6 @@
 asn-memo is a simple flash card application written in Python (using the Textual framework) to aid in memorization of important networks and their ASN numbers.
 
-Written by Opus 4.5.
+Written by Opus 4.5 with Claude Code.
 
   Project Structure
 
