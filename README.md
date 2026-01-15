@@ -4,6 +4,7 @@ Written by Opus 4.5.
 
   Project Structure
 
+```
   asn-memo/
   ├── main.py              # Entry point
   ├── app.py               # TUI screens (MainMenu, Study, Browse, Statistics)
@@ -13,6 +14,7 @@ Written by Opus 4.5.
   ├── asn_memo.tcss        # Textual CSS styling
   ├── requirements.txt     # textual>=0.47.0
   └── .venv/               # Virtual environment (already set up)
+```
 
   Networks Included (60 total)
 
