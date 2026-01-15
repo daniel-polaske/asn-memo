@@ -1,0 +1,300 @@
+/* ASN Memo TUI Stylesheet */
+
+/* === MAIN MENU === */
+#main-container {
+    align: center middle;
+    padding: 2;
+}
+
+#title {
+    text-align: center;
+    text-style: bold;
+    color: $accent;
+    padding: 1;
+    width: 100%;
+}
+
+#subtitle {
+    text-align: center;
+    color: $text-muted;
+    padding-bottom: 2;
+    width: 100%;
+}
+
+#menu-buttons {
+    width: 40;
+    height: auto;
+    align: center middle;
+}
+
+#menu-buttons Button {
+    width: 100%;
+    margin: 1 0;
+}
+
+/* === STUDY SCREEN === */
+#study-container {
+    padding: 2;
+    align: center top;
+}
+
+#study-title {
+    text-align: center;
+    text-style: bold;
+    color: $accent;
+    padding: 1;
+    width: 100%;
+}
+
+#progress {
+    margin: 1 4;
+    width: 80%;
+}
+
+#progress-text {
+    text-align: center;
+    color: $text-muted;
+    padding-bottom: 1;
+    width: 100%;
+}
+
+#card-container {
+    border: solid $primary;
+    padding: 2;
+    margin: 1 4;
+    width: 80%;
+    height: auto;
+    min-height: 12;
+}
+
+.card-tier {
+    color: $warning;
+    text-style: italic;
+}
+
+.card-name {
+    text-style: bold;
+    color: $accent;
+    padding: 1 0;
+}
+
+.card-hq {
+    color: $text-muted;
+    text-style: italic;
+}
+
+#card-question {
+    color: $text;
+    padding: 1 0;
+    text-style: bold;
+}
+
+.card-answer {
+    text-style: bold;
+    color: $success;
+    padding: 1 0;
+}
+
+#card-specialization {
+    color: $primary;
+    padding: 1 0;
+}
+
+#card-facts {
+    color: $text-muted;
+    padding: 1 0;
+}
+
+#answer-container {
+    padding: 1 0;
+    border-top: solid $primary-darken-2;
+    margin-top: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+#action-buttons {
+    align: center middle;
+    padding: 1;
+    width: 100%;
+}
+
+#action-buttons Button {
+    min-width: 30;
+}
+
+#rating-buttons {
+    align: center middle;
+    padding: 1;
+    width: 100%;
+}
+
+#rating-buttons Button {
+    margin: 0 1;
+    min-width: 12;
+}
+
+/* Session Complete */
+#complete-container {
+    align: center middle;
+    padding: 2;
+    border: solid $success;
+    margin: 2 4;
+    width: 60%;
+}
+
+#complete-stats {
+    text-align: center;
+    text-style: bold;
+    color: $success;
+    padding: 1;
+}
+
+#complete-message {
+    text-align: center;
+    color: $text-muted;
+    padding: 1;
+}
+
+#complete-container Button {
+    margin-top: 1;
+}
+
+/* === BROWSE SCREEN === */
+#browse-container {
+    padding: 1;
+}
+
+#browse-title {
+    text-align: center;
+    text-style: bold;
+    color: $accent;
+    padding: 1;
+    width: 100%;
+}
+
+#browse-layout {
+    height: 100%;
+    width: 100%;
+}
+
+#tier-list {
+    width: 30;
+    height: 100%;
+    border: solid $primary;
+    margin-right: 1;
+}
+
+#tier-list ListItem {
+    padding: 1;
+}
+
+#tier-list ListItem:hover {
+    background: $primary-darken-1;
+}
+
+#tier-list ListItem.-selected {
+    background: $primary;
+}
+
+#network-container {
+    width: 1fr;
+    height: 100%;
+    padding: 0 1;
+}
+
+#network-table {
+    width: 100%;
+    height: 100%;
+}
+
+/* === STATISTICS SCREEN === */
+#statistics-container {
+    align: center middle;
+    padding: 2;
+}
+
+#stats-title {
+    text-align: center;
+    text-style: bold;
+    color: $accent;
+    padding: 1;
+    width: 100%;
+}
+
+#stats-box {
+    padding: 2;
+    border: solid $primary;
+    margin: 2;
+    width: 60;
+}
+
+#stats-box Static {
+    padding: 1;
+}
+
+#total-networks {
+    color: $accent;
+    text-style: bold;
+}
+
+#total-studied {
+    color: $text;
+}
+
+#due-today {
+    color: $warning;
+}
+
+#mastered {
+    color: $success;
+}
+
+#learning {
+    color: $primary;
+}
+
+#avg-ease {
+    color: $text-muted;
+}
+
+#statistics-container Button {
+    margin-top: 2;
+}
+
+/* === RESET MODAL === */
+ResetConfirmScreen {
+    align: center middle;
+}
+
+#reset-container {
+    width: 50;
+    height: auto;
+    border: solid $error;
+    background: $surface;
+    padding: 2;
+}
+
+#reset-title {
+    text-align: center;
+    text-style: bold;
+    color: $error;
+    padding: 1;
+}
+
+#reset-warning {
+    text-align: center;
+    color: $text;
+    padding: 1;
+}
+
+#reset-buttons {
+    align: center middle;
+    padding-top: 1;
+}
+
+#reset-buttons Button {
+    margin: 0 1;
+}
